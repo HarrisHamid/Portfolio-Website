@@ -499,3 +499,20 @@ span {
     margin: 5px 0;
 }
 
+
+#typewriter{
+
+}
+
+#cursor{
+    animation: blink 1s linear infinite;   
+}
+
+@keyframes blink{
+    0% {
+        opacity: 100%;
+    }
+    50%{
+        opacity: 0;
+    }
+}
